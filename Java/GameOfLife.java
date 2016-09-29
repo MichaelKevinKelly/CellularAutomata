@@ -121,8 +121,7 @@ public class GameOfLife extends PApplet {
 	 *  randomly populate grid ('r'), place glider gun, eater, or "detector" ('g','e','d'), 
 	 *  undo last placed pattern ('u'), rotate pattern 90 degrees ('t'), flip pattern ('f'),
 	 *  move pattern up/down/left/right (arrow keys), erase block ('o'), toggle grid lines ('x'),
-	 *  toggle individual cell (mouse click), 
-	 *  
+	 *  toggle individual cell (mouse click).
 	 */
 	public void keyPressed() {
 		if (key == RETURN || key == ENTER) {
