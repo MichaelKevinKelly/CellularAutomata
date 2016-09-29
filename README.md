@@ -1,7 +1,7 @@
 Cellular Automata
 ===========
 
-This repo contains implementations for three variants of Conway's Game of Life, two implemented in Java and Processing and one in C# and Unity.
+This repo contains code for three variants of Conway's Game of Life, two implemented in Java and Processing and one in C# and Unity.
 
 ## The Game of Life
 
