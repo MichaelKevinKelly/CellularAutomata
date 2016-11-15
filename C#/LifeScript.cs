@@ -1,7 +1,7 @@
 /**
  * 
  * Simple implementation of the Game of Life in 3D using Unity.
- * To use this script, attach to an empty GameObject in a Unity scene. Set prefab to square 
+ * To use this script, attach to an empty GameObject in a Unity scene. Set prefab to cube 
  * GameObject in the Inspector panel. The square object should be scaled approximately 
  * by the cell size dimension.
  * 
