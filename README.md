@@ -66,6 +66,6 @@ Processing does not provide a torus primitive, so I wrote a short method that ge
 
 ## Game of Life - 3D
 
-The C# directory of this repo contains two scripts to implement a three-dimensional version of the Game of Life in Unity and in VR using Google Cardboard. To run in Unity, just attach the Life.cs file to an empty GameObject and set the prefab variable to a square. Make sure to scale the square to an appropriate size for the chosen cell size (I scaled the square's dimensions by 3 and set the cell size to 3.1).
+The C# directory of this repo contains two scripts to implement a three-dimensional version of the Game of Life in Unity and in VR using Google Cardboard. To run in Unity, just attach the Life.cs file to an empty GameObject and set the prefab variable to a cube. Make sure to scale the cube to an appropriate size for the chosen cell size (I scaled the cube's dimensions by 3 and set the cell size to 3.1).
 
 I also used the Google VR SDK to create a VR version of the game. To do this it is necessary first to download the SDK and import it into your project, then to drag the GvrViewerMain prefab into your scene, and then finally to update the Build Settings to match your target platform. I wrote the Motion.cs script to allow the user to move around and examine the various patterns that emerge in the game - attaching the script to the main camera causes it to move at a constant speed in the direction of the user's gaze. Pressing the Cardboard unit's button toggles the motion on and off.
